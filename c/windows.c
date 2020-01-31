@@ -33,7 +33,6 @@ void S_machine_init() {
     Sregister_symbol("(windows)PutRegistry", (void *)s_PutRegistry);
     Sregister_symbol("(windows)RemoveRegistry", (void *)s_RemoveRegistry);
     Sregister_symbol("(windows)ErrorString", (void *)s_ErrorString);
-    SetConsoleOutputCP(CP_UTF8);
 }
 
 INT S_getpagesize() {
